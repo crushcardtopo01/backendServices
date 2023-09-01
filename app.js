@@ -27,11 +27,22 @@ app.get('/dummyResponse', (req, res) => {
         let item ={
           nombreProyecto: proyecto.nombreProyecto,
           fecha: proyecto.fechaCreacion,
+          id: proyecto._id
         };
         proyectosResponse.push(item);
 
       });
       res.status(200).json({ message: proyectosResponse });
+    } catch (error) {
+      res.status(500).json({ message: error });
+    }
+
+  });
+  app.get('/api/v1/proyectos/proyecto', async (req, res) => {
+    try {
+      
+      const proyectos = await Proyecto.find({"_id":req.body.id});
+      res.status(200).json({ message: proyectos });
     } catch (error) {
       res.status(500).json({ message: error });
     }
