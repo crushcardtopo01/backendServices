@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const Proyecto = require('./models/proyecto');
 
 const mongoose = require('mongoose');
+const  template  = require('./models/template');
 
 app.use(bodyParser.json());
 app.use(express.static('public'))
@@ -20,8 +21,17 @@ app.get('/dummyResponse', (req, res) => {
 
   app.get('/api/v1/proyectos', async (req, res) => {
     try {
-      const proyectos = await Proyecto.find();
-      res.status(200).json({ message: proyectos });
+      const proyectos = await Proyecto.find( { "idUsuario" : req.body.idUsuario } );
+      let proyectosResponse = [];
+      proyectos.map((proyecto) => {
+        let item ={
+          nombreProyecto: proyecto.nombreProyecto,
+          fecha: proyecto.fechaCreacion,
+        };
+        proyectosResponse.push(item);
+
+      });
+      res.status(200).json({ message: proyectosResponse });
     } catch (error) {
       res.status(500).json({ message: error });
     }
@@ -42,47 +52,11 @@ app.get('/dummyResponse', (req, res) => {
   app.post('/api/v1/proyectos/create', async (req, res)=>{
 
     try {
-      const ejemploProyecto = new Proyecto({
-        id: new mongoose.Types.ObjectId(),
-        nombreProyecto: req.body.nombreProyecto,
-        idUsuario: req.body.idUsuario,
-        contenido: [
-          {
-            
-            seccion: 'seccion preparatoria',
-            contenido: [
-              {
-                
-                titulo: 'Antes de estructurar integralmente el Proyecto de investigación...',
-                descripcion: [
-                  {
-                    _id: new mongoose.Types.ObjectId(),
-                    isBoolean: false,
-                    texto: '¿Qué problema (situación en un estado actual) he observado en mi ámbito de estudio y deseo investigar?',
-                    subTexto: '',
-                    respuesta: '',
-                  },
-                  {
-                    _id: new mongoose.Types.ObjectId(),
-                    isBoolean: false,
-                    texto: '¿Qué espero conocer o resolver con respecto al problema observado?',
-                    subTexto: '',
-                    respuesta: '',
-                  },
-                  {
-                    _id: new mongoose.Types.ObjectId(),
-                    isBoolean: false,
-                    texto: '¿Cuáles considero son las posibles soluciones (para alcanzar la situación deseada) al problema de estudio?',
-                    subTexto: '',
-                    respuesta: '',
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-        fechaCreacion: '2019-05-05',
-      });
+      console.log(template);
+      template.nombreProyecto = req.body.nombreProyecto;
+      template.idUsuario = req.body.idUsuario;
+      
+      const ejemploProyecto = template;
 
       const saved = await ejemploProyecto.save();
       console.log(saved);

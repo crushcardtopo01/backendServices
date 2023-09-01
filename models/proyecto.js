@@ -1,32 +1,63 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const contenidoSchema = new Schema({
+// const contenidoSchema = new Schema({
   
-  seccion: String,
-  contenido: [
-    {
+//   seccion: String,
+//   contenido: [
+//     {
       
-      titulo: String,
-      descripcion: [
-        {
+//       titulo: String,
+//       descripcion: [
+//         {
           
-          isBoolean: Boolean,
-          texto: String,
-          subTexto: String,
-          respuesta: String,
-        }
-      ],
-    }
-  ],
-});
+//           isBoolean: Boolean,
+//           texto: String,
+//           subTexto: String,
+//           respuesta: String,
+//         }
+//       ],
+//     }
+//   ],
+// });
 
-const proyectoSchema = new Schema({
+// const proyectoSchema = new Schema({
  
+//   nombreProyecto: String,
+//   idUsuario: String,
+//   contenido: [contenidoSchema],
+//   fechaCreacion: String,
+// });
+
+const proyectoSchema = new mongoose.Schema({
   nombreProyecto: String,
   idUsuario: String,
-  contenido: [contenidoSchema],
-  fechaCreacion: Date,
+  contenido: [
+      {
+          id: mongoose.Types.ObjectId,
+          seccion: String,
+          contenidoSeccion: [
+              {
+                  subSeccion: String,
+                  titulo: [
+                      {
+                          texto: String
+                      }
+                  ],
+                  preguntas: [
+                      {
+                          idPregunta: String,
+                          isBoolean: Boolean,
+                          texto: String,
+                          subTexto: String,
+                          respuesta: String
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  fechaCreacion: String
 });
 
 const Proyecto = mongoose.model('Proyecto', proyectoSchema);
