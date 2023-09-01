@@ -10,14 +10,11 @@ const  template  = require('./models/template');
 app.use(bodyParser.json());
 app.use(express.static('public'))
 
+app.use(cors({ origin: 'http://localhost:3000' }));
+
 // app.get('*', (req, res) => {
 //     res.redirect('/');
 // });
-
-app.get('/dummyResponse', (req, res) => {
-    let dumyRes = [{"project":"name1","date":"02/02/2023"},{"project":"name2","date":"02/02/2023"},{"project":"name3","date":"02/02/2023"},{"project":"name3","date":"02/02/2023"},{"project":"name3","date":"02/02/2023"}]
-    res.json({ message: dumyRes });
-  });
 
   app.get('/api/v1/proyectos', async (req, res) => {
     try {
