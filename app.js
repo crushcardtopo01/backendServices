@@ -19,7 +19,9 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 
   app.get('/api/v1/proyectos', async (req, res) => {
     try {
+      console.log(req.body);
       const proyectos = await Proyecto.find( { "idUsuario" : req.body.idUsuario } );
+      console.log(proyectos);
       let proyectosResponse = [];
       proyectos.map((proyecto) => {
         let item ={
