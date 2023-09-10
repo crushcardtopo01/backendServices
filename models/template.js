@@ -8,7 +8,7 @@ const ejemploProyecto = new Proyecto( {
     contenido:[
         {
              id: new mongoose.Types.ObjectId(),
-            seccion:"seccion preparatoria",
+            seccion:"preparatoria",
             contenidoSeccion: [
                 {
                     subSeccion:"nombre subSeccion",
@@ -436,7 +436,7 @@ const ejemploProyecto = new Proyecto( {
         },
         {
              id: new mongoose.Types.ObjectId(),
-            seccion:"Planteamiento del problema",
+            seccion:"Planteamientoproblema",
             contenidoSeccion:[
                 {
                     subSeccion:"introducción planteamiento problema",
