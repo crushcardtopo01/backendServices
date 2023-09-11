@@ -686,7 +686,8 @@ const ejemploProyecto = new Proyecto( {
                             respuesta: ""
                         }
                     ]
-                },{
+                },
+                {
                     subSeccion:"Hipótesis (o Supuestos)",
                     titulo: [
                         {
@@ -1290,9 +1291,656 @@ const ejemploProyecto = new Proyecto( {
                             subTexto:"¿Qué factores tomaste en cuenta para contar con el tiempo suficiente?",
                             respuesta: ""
                         },
+                        {
+                            idPregunta:"p151",
+                            isBoolean: true,
+                            texto:"La suficiencia de los recursos materiales y económicos necesarios para concluir el estudio",
+                            subTexto:"¿Cómo te aseguraste de contar con lo necesario?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p152",
+                            isBoolean: true,
+                            texto:"La manera de enfrentar cada uno de los posibles contratiempos",
+                            subTexto:"¿Cómo sortearás los aspectos con los que tienes potenciales dificultades?",
+                            respuesta: ""
+                        },
                     ]
-                },{},{},{}
+                },
+                {
+                    subSeccion:"Definición de conceptos",
+                    titulo: [
+                        {
+                            texto:"Es necesario que todos los involucrados con el desarrollo de la investigación cuenten con una base conceptual común, por tanto, realiza una lista de todos los conceptos relacionados con el Problema de investigación y busca en la bibliografía especializada sus definiciones."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p153",
+                            isBoolean: false,
+                            texto:"A continuación, elige y transcribe tres de las definiciones encontradas de cada uno de los conceptos identificados como indispensables para que todos reconozcan la manera como se considerarán en la investigación. Presenta las definiciones seleccionadas respetando las características estipuladas por el formato APA tanto para las citas textuales como para sus referencias",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p154",
+                            isBoolean: true,
+                            texto:"¿Son los indispensables para la adecuada comprensión del problema por abordar?",
+                            subTexto:"¿Cómo te aseguraste de que has incluido todos?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p155",
+                            isBoolean: true,
+                            texto:"¿Se presentan tres definiciones adecuadas y útiles de cada concepto para el estudio por realizar?",
+                            subTexto:"¿Por qué serán útiles? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p156",
+                            isBoolean: true,
+                            texto:"Si las definiciones encontradas no son adecuadas para el estudio por realizar, ¿se aprovechan estas para definir el concepto?",
+                            subTexto:"¿Qué elementos has considerado como necesarios y útiles para incluirlos en la definición propuesta y por qué? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p157",
+                            isBoolean: true,
+                            texto:"¿Las definiciones presentadas abarcan todos los puntos especificados en el Esquema provisional de trabajo?",
+                            subTexto:"¿Cómo te aseguraste de esto?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p158",
+                            isBoolean: true,
+                            texto:"¿Se presentan con el formato APA de cita textual adecuado?",
+                            subTexto:"¿Cómo te aseguraste de que son los formatos correctos?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p159",
+                            isBoolean: true,
+                            texto:"¿Incluyen su referencia correspondiente respetando el formato APA?",
+                            subTexto:"¿Cómo te aseguraste de que empleaste los datos correctos con el formato adecuado?",
+                            respuesta: ""
+                        },
+                    ]
+                },
             ]
+        },
+        {
+            id: new mongoose.Types.ObjectId(),
+            seccion:"MetodosRecopilacion",
+            contenidoSeccion:[
+                {
+                    subSeccion:"Métodos de recopilación y de procesamiento de información",
+                    titulo: [
+                        {
+                            texto:"Todo lo hasta aquí desarrollado constituye la base y, en gran medida, orienta las actividades que deberán realizarse en la investigación, sin embargo, algunos pasos indispensables para lograr el Objetivo general todavía no han sido definidos con claridad, como podría ser el trabajo de campo"
+                        },
+                        {
+                            texto:"En primer lugar, describe, paso a paso, todas las actividades necesarias para desarrollar el Proceso de investigación. Considera: el contexto y la población involucrados con el estudio, el diseño del proyecto, el acopio de información documental y de campo, los instrumentos requeridos para realizar el acopio, las técnicas necesarias para la adecuada aplicación de los instrumentos, los métodos que se emplearán para procesar la información recopilada y la elaboración del Informe de investigación"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p160",
+                            isBoolean: false,
+                            texto:"Descripción del proceso de investigación",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p161",
+                            isBoolean: true,
+                            texto:"¿El proceso propuesto es claro y completo?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p162",
+                            isBoolean: true,
+                            texto:"¿Se toma en cuenta el contexto?",
+                            subTexto:"¿Cuál es el contexto descrito? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p163",
+                            isBoolean: true,
+                            texto:"¿Se especifican los instrumentos por utilizar?",
+                            subTexto:"¿	Qué instrumentos se emplearán? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Diseño de la investigación",
+                    titulo: [
+                        {
+                            texto:"Una vez definido el proceso, analiza y compara los tipos de investigación documentados en la bibliografía metodológica especializada con los descritos por ti líneas arriba, para identificar y seleccionar aquellos que coincidan con lo propuesto para llevar a cabo la investigación y contribuyan a su buen desarrollo. Toma en cuenta que la investigación no necesariamente será de un tipo determinado y empleará un solo método; en la práctica, dependiendo de su naturaleza y del objetivo, estos podrán combinarse o adaptarse a las necesidades del estudio"
+                        },
+                        {
+                            texto:"Complementa la descripción del proceso de investigación propuesto al principio de este apartado con el Diseño de la investigación: No experimental, Preexperimental, Cuasiexperimental o Experimental, para una investigación cuantitativa; o Etnográfico, Etnometodológico, Fenomenológico, Biográfico, etcétera, para una investigación cualitativa, explicando, en función de tu propio trabajo, por qué se trata de un tipo u otro, e incluye la fuente que lo avala."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p164",
+                            isBoolean: true,
+                            texto:"El diseño propuesto:	¿Es adecuado para la investigación por desarrollar?",
+                            subTexto:"¿Por qué lo consideras así?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p165",
+                            isBoolean: true,
+                            texto:"•	¿Se justifica el tipo de estudio propuesto con el trabajo requerido para lograr el objetivo, en lugar de en la teoría encontrada en los textos metodológicos especializados?",
+                            subTexto:"¿Qué parte del trabajo lo justifica? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p166",
+                            isBoolean: true,
+                            texto:"¿Se incluye la referencia correspondiente a la fuente metodológica empleada para identificar el Diseño de la investigación?",
+                            subTexto:"¿Por qué seleccionaste esta fuente? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p167",
+                            isBoolean: true,
+                            texto:"•	¿Se respeta el formato APA al presentar la referencia?",
+                            subTexto:"¿Cómo te aseguraste de esto?  ",
+                            respuesta: ""
+                        },
+                        
+                        
+                    ]
+                },
+                {
+                    subSeccion:"Métodos e instrumentos",
+                    titulo: [
+                        {
+                            texto:"Complementa este apartado señalando a quién o quiénes se aplicará cada instrumento y si se realizará el acopio con toda la población o solo con una muestra"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p168",
+                            isBoolean: false,
+                            texto:"Métodos e instrumentos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p168",
+                            isBoolean: true,
+                            texto:"La explicación de los métodos de recopilación de información:  ¿Es clara y precisa?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p169",
+                            isBoolean: true,
+                            texto:"¿Considera el proceso completo?",
+                            subTexto:"¿En qué te basaste para no omitir nada? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p170",
+                            isBoolean: true,
+                            texto:"¿Considera, cuando están disponibles, los métodos e instrumentos especializados de la disciplina correspondiente al Problema de investigación?",
+                            subTexto:"¿A qué fuentes recurriste para identificarlos? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p171",
+                            isBoolean: true,
+                            texto:"¿Menciona cuál será la población de estudio?",
+                            subTexto:"¿Cuál es la población mencionada? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p172",
+                            isBoolean: true,
+                            texto:"¿Especifica si el estudio se desarrollará con la población completa o se seleccionará una muestra y por qué?",
+                            subTexto:"¿Qué población o muestra se especifica? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p173",
+                            isBoolean: true,
+                            texto:"En caso de trabajarse con una muestra, ¿indica cómo se seleccionará?",
+                            subTexto:"¿Por qué seleccionaste este tipo de muestra?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p174",
+                            isBoolean: true,
+                            texto:"En caso de trabajarse con una muestra, ¿indica cómo se seleccionará?",
+                            subTexto:"¿Por qué seleccionaste este tipo de muestra?  ",
+                            respuesta: ""
+                        },
+
+                    ]
+                },
+                {
+                    subSeccion:"Instrumentos",
+                    titulo: [
+                        {
+                            texto:"A partir de lo anteriormente determinado, “prediseña” tus instrumentos de acopio de información"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p175",
+                            isBoolean: false,
+                            texto:"Instrumentos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p176",
+                            isBoolean: true,
+                            texto:"De acuerdo con la disciplina de estudio, ¿son adecuados para el tipo de información necesaria para lograr el objetivo?",
+                            subTexto:"¿En qué te basaste para estar seguro de esto?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p177",
+                            isBoolean: true,
+                            texto:"¿Cubren todo el proceso de investigación anteriormente propuesto?",
+                            subTexto:"¿Qué etapas abarca? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p178",
+                            isBoolean: true,
+                            texto:"¿Toman en cuenta a la población o muestra por atender y su número?",
+                            subTexto:"¿Cuál es la población, o muestra, por estudiar? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p179",
+                            isBoolean: true,
+                            texto:"¿Toman en cuenta a la población o muestra por atender y su número?",
+                            subTexto:"¿Cuál es la población, o muestra, por estudiar? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p180",
+                            isBoolean: true,
+                            texto:"¿Respetan las características técnicas especificadas?",
+                            subTexto:"¿Con qué fuentes especializadas respaldaste estas características?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p181",
+                            isBoolean: true,
+                            texto:"¿Se han desarrollado con buena redacción, ortografía y presentación?",
+                            subTexto:"¿Cómo te aseguraste de su corrección? ",
+                            respuesta: ""
+                        },
+                    ]
+
+                },
+                {
+                    subSeccion:"Técnicas",
+                    titulo: [
+                        {
+                            texto:"Ahora, sabiendo qué instrumentos necesitas para realizar el acopio de información para tu investigación, consulta la bibliografía especializada (metodológica en general o especializada de la disciplina de estudio en particular) y describe la técnica por seguir para la adecuada aplicación de cada uno de estos. Incluye la referencia de la fuente que avala la técnica descrita"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p182",
+                            isBoolean: false,
+                            texto:"Técnica para aplicar los instrumentos diseñados",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p183",
+                            isBoolean: true,
+                            texto:"¿Incluye el detalle de los pasos que se seguirán para recopilar la información?",
+                            subTexto:"¿Qué elementos incluye esta técnica?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p184",
+                            isBoolean: true,
+                            texto:"¿Considera la disciplina de estudio relacionada con el Problema de investigación?",
+                            subTexto:"¿Qué aspectos técnicos especializados incluye? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p185",
+                            isBoolean: true,
+                            texto:"•	¿Prevé las condiciones necesarias para aplicar los instrumentos, tales como materiales, permisos, acondicionamiento de instalaciones, etcétera?",
+                            subTexto:"¿Qué previsiones deberás tomar? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p186",
+                            isBoolean: true,
+                            texto:"¿Incluye la referencia de la fuente especializada con que se respalda la técnica propuesta?",
+                            subTexto:"¿Qué fuente metodológica has utilizado? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p187",
+                            isBoolean: true,
+                            texto:"•	¿Se respeta el formato APA en las referencias presentadas?",
+                            subTexto:"¿Cómo te aseguraste de esto?",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Tamaño de la muestra",
+                    titulo: [
+                        {
+                            texto:"A partir del diseño de los instrumentos, de su técnica de aplicación y de la definición de los participantes, indica cómo se determinará el tamaño de la muestra: fórmula, teorema de tendencia central… o si se empleará el número de participantes especificados por la técnica especializada de la disciplina de estudio; asimismo, si la investigación será cuantitativa, indica si la muestra será probabilística o no probabilística. Justifica por qué se ha decidido trabajar con este tipo y tamaño de muestra. Incluye la referencia de la fuente que lo avala"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p188",
+                            isBoolean: false,
+                            texto:"Tamaño de la muestra",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p189",
+                            isBoolean: true,
+                            texto:"•	¿Es suficiente para el tipo de estudio por realizar?",
+                            subTexto:"¿Cómo justificas esta decisión? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p190",
+                            isBoolean: true,
+                            texto:"¿Es suficiente para el tipo de estudio por realizar?",
+                            subTexto:"¿Cómo justificas esta decisión? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p191",
+                            isBoolean: true,
+                            texto:"¿Es accesible para el investigador?",
+                            subTexto:"¿Cómo te has asegurado de no tener problemas de acceso?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p192",
+                            isBoolean: true,
+                            texto:"¿Considera si se requiere información de más de un grupo de estudio?",
+                            subTexto:"¿Cómo determinaste cuántos grupos se requieren para este estudio?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p193",
+                            isBoolean: true,
+                            texto:"•	En caso de requerir más de un grupo, ¿has tomado las previsiones de acceso necesarias?",
+                            subTexto:"¿Qué previsiones tomarás? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p194",
+                            isBoolean: true,
+                            texto:"•	¿Incluye el respaldo en una fuente metodológica?",
+                            subTexto:"En qué fuente metodológica te apoyaste? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p195",
+                            isBoolean: true,
+                            texto:"¿La referencia respeta el formato APA?",
+                            subTexto:"¿Cómo te aseguraste de esto?",
+                            respuesta: ""
+                        },
+
+                    ]
+                },
+                {
+                    subSeccion:"Criterios",
+                    titulo: [
+                        {
+                            texto:"El siguiente paso es determinar las características que deben cubrir los participantes en el estudio, esto es, los Criterios de Inclusión, Exclusión y Eliminación."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p196",
+                            isBoolean: false,
+                            texto:"Criterios de inclusión",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p197",
+                            isBoolean: false,
+                            texto:"Criterios de exclusión",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p198",
+                            isBoolean: false,
+                            texto:"Criterios de eliminación",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p199",
+                            isBoolean: true,
+                            texto:"¿Corresponden a sujetos partícipes del fenómeno de estudio?",
+                            subTexto:"¿En qué te basaste para determinar estas características?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p200",
+                            isBoolean: true,
+                            texto:"¿Son adecuadas y suficientes para que los participantes aporten la información necesaria para la investigación?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p201",
+                            isBoolean: true,
+                            texto:"¿Los Criterios de Exclusión son los opuestos, o fuera de rango, a los señalados como de Inclusión?",
+                            subTexto:"¿Cuántos Criterios de Inclusión y de Exclusión estableciste? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p202",
+                            isBoolean: true,
+                            texto:"¿Los criterios de eliminación son características o situaciones que pueden presentarse al momento de participar en el estudio o identificables en sus respuestas?",
+                            subTexto:"¿Cómo identificaste estas posibles situaciones? ",
+                            respuesta: ""
+                        },
+
+                    ]
+                },
+                {
+                    subSeccion:"Métodos de procesamiento de información",
+                    titulo: [
+                        {
+                            texto:"Para finalizar este apartado, revisa la bibliografía especializada y explica cómo vas a procesar la información recopilada. Toma en cuenta que los procedimientos deben corresponder con el tipo de información, con los objetivos y con el tipo de investigación por desarrollar"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p203",
+                            isBoolean: false,
+                            texto:"Métodos de procesamiento de información",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p204",
+                            isBoolean: true,
+                            texto:"Los procedimientos propuestos:¿Establecen claramente qué se hará con la información?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p205",
+                            isBoolean: true,
+                            texto:"¿Corresponden con la investigación por desarrollar?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p206",
+                            isBoolean: true,
+                            texto:"¿Son los adecuados para la información recopilada?",
+                            subTexto:"¿En qué te basaste para determinarlo? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p207",
+                            isBoolean: true,
+                            texto:"¿Contribuyen al logro de los objetivos?",
+                            subTexto:"¿De qué manera? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p208",
+                            isBoolean: true,
+                            texto:"¿Incluyen la fuente metodológica que los respalda?",
+                            subTexto:"¿Qué fuente metodológica respalda lo adecuado de los métodos?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p209",
+                            isBoolean: true,
+                            texto:"¿Presentan la referencia correspondiente con las características correctas y adecuadas según el formato APA?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            id: new mongoose.Types.ObjectId(),
+            seccion:"Cronograma",
+            contenidoSeccion:[
+                {
+                    subSeccion:"Cronograma de actividades",
+                    titulo: [
+                        {
+                            texto:"De acuerdo con el Proceso de investigación descrito en el punto anterior, elabora la programación de las actividades, distribuyéndolas adecuadamente para que no solo te sirvan como guía del trabajo por desarrollar sino te aseguren la terminación de la investigación dentro del plazo disponible para esto"
+                        },
+                        {
+                            texto:"Emplea el siguiente formato para realizar tu programación y mantener el control del avance de las actividades. Sustituye los números indicados en la fila superior por las fechas correspondientes a las semanas de que dispones para realizar tu investigación y adecua las columnas al número de semanas disponibles, indicando en la marcada como “n” la fecha límite para concluir el trabajo. Toma en cuenta que lo más conveniente es programar la culminación de tu trabajo en una fecha anterior al plazo máximo con que cuentas para entregar tu informe"
+                        },
+                        {
+                            texto:"Incorpora en la primera columna, de manera pormenorizada, todas las actividades necesarias para concluir la investigación, considerando las subetapas o actividades secundarias requeridas para concluir las actividades principales"
+                        },
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p210",
+                            isBoolean: true,
+                            texto:"¿Incluye todas las actividades necesarias para concluir la investigación?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p211",
+                            isBoolean: true,
+                            texto:"¿Distribuye adecuadamente los tiempos para asegurar la conclusión del proyecto dentro del plazo disponible?",
+                            subTexto:"¿En qué te basaste para distribuir los tiempos? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p212",
+                            isBoolean: true,
+                            texto:"•	¿Considera holgura o tolerancia en los tiempos programados de manera que posibles eventualidades no pongan en riesgo su culminación en la fecha límite establecida?",
+                            subTexto:"¿De cuánto tiempo es la holgura programada? ",
+                            respuesta: ""
+                        },
+                    ],
+                },
+            ]
+        },{
+            id: new mongoose.Types.ObjectId(),
+            seccion:"Bibliografía provisional",
+            contenidoSeccion:[
+                {
+                    subSeccion:"Bibliografía provisional",
+                    titulo: [
+                        {
+                            texto:"Elabora un listado con las referencias bibliográficas de aquellas fuentes documentales que consideres útiles para llevar a cabo tu investigación"
+                        },
+                        {
+                            texto:"Incluye los datos completos de todas las referencias, de acuerdo con lo establecido por el formato APA. Recuerda presentar la Bibliografía provisional ordenada alfabéticamente y con sangría francesa"
+                        },
+                        {
+                            texto:"Puedes considerar, como punto de partida, los textos empleados al definir conceptos en el Planteamiento del problema; adicionalmente, realiza una revisión tanto de libros como de revistas y páginas electrónicas especializados para conformar esta bibliografía"
+                        },
+                        {
+                            texto:"Con respecto a las páginas electrónicas, no olvides la importancia de recurrir a bases de datos y fuentes arbitradas a fin de asegurar su confiabilidad"
+                        }
+                        
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p213",
+                            isBoolean: false,
+                            texto:"Bibliografía provisional",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p214",
+                            isBoolean: true,
+                            texto:"¿Es suficiente para emprender el trabajo de investigación?",
+                            subTexto:"¿En qué te basas para considerarla suficiente? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p215",
+                            isBoolean: true,
+                            texto:"¿Aporta información pertinente y relevante con respecto al problema de investigación?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p216",
+                            isBoolean: true,
+                            texto:"¿Toma en cuenta a los clásicos de la disciplina relacionada con el Problema de investigación?",
+                            subTexto:"¿A qué clásicos recurriste? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p217",
+                            isBoolean: true,
+                            texto:"¿Considera, dependiendo del Problema y el Objetivo de la investigación, fuentes actualizadas?",
+                            subTexto:"¿A qué fuentes actualizadas recurriste?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p218",
+                            isBoolean: true,
+                            texto:"¿Toma en cuenta solamente fuentes confiables?",
+                            subTexto:"¿Cómo seleccionaste las fuentes propuestas?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p219",
+                            isBoolean: true,
+                            texto:"¿Respeta el formato APA?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+
+                    ],
+                },
+            ],
+
         }
     ],
     fechaCreacion: fechaActual.getDate() + "/" + (fechaActual.getMonth() +1) + "/" + fechaActual.getFullYear()

@@ -52,6 +52,7 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 
       const proyecto = await Proyecto.findOne({ "idUsuario": idUsuario, "_id": idProyecto });
 
+      
       // Verificar si se encontró un proyecto
       if (!proyecto) {
         return res.status(404).json({ message: 'Proyecto no encontrado' });
