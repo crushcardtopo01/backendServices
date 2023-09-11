@@ -499,7 +499,799 @@ const ejemploProyecto = new Proyecto( {
                             respuesta: ""
                         }
                     ]
-                }
+                },
+                {
+                    subSeccion:"Antecedentes del problema de investigación",
+                    titulo: [
+                        {
+                            texto:"La reflexión llevada a cabo durante la Etapa preparatoria con respecto al Problema de investigación que deseas abordar, así como el conocimiento que sobre este tienes, constituyen la base para presentar los antecedentes teóricos e históricos. Por tanto, describe la situación actual del Problema de investigación y lo que sabes acerca de cómo se llegó a ella, así como la situación deseada"
+                        },
+                        {
+                            texto:"Para realizar esta descripción no es necesario llevar a cabo, por el momento, una búsqueda documental exhaustiva o profunda; la mayoría de las veces será suficiente el conocimiento previo sobre el problema de estudio; sin embargo, dado que abordas un problema sobre el que tienes mucho por aprender, lo más recomendable es buscar en la bibliografía especializada información para describir los antecedentes que te ayuden a contar con una base de conocimiento adecuada y suficiente para desarrollar tu investigación. Además, recuerda la conveniencia de evitar que la revisión bibliográfica influya directamente en el desarrollo del Proyecto de investigación y en el enfoque determinado para esta, a fin de no afectar el enfoque novedoso que has propuesto"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p58",
+                            isBoolean: false,
+                            texto: "Redacta a continuación los Antecedentes del Problema de investigación",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p59",
+                            isBoolean: true,
+                            texto: "¿Describen con claridad la situación actual del Problema de investigación?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p60",
+                            isBoolean: true,
+                            texto: "¿Consideran la evolución que ha llevado al problema a su actual situación y hace necesario su estudio?",
+                            subTexto:"¿En qué te basaste para describirla?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p61",
+                            isBoolean: true,
+                            texto: "¿Toman en cuenta los aspectos teóricos relacionados con el problema de investigación?",
+                            subTexto:"¿Qué teorías incluiste? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p62",
+                            isBoolean: true,
+                            texto: "¿Aportan los elementos necesarios para guiar el estudio de acuerdo con las variables, o supuestos, especificados en la Pregunta, Hipótesis o Supuesto y Objetivo de investigación",
+                            subTexto:"¿Cuáles son? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p63",
+                            isBoolean: true,
+                            texto: "¿Se mencionan las aportaciones de trabajos similares?",
+                            subTexto:"¿A qué fuentes recurriste para identificarlas ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p64",
+                            isBoolean: true,
+                            texto: "¿Incluiste las referencias correspondientes a cada una de las fuentes citadas en tus antecedentes respetando el formato APA?",
+                            subTexto:"¿Cómo te aseguraste de su corrección? ",
+                            respuesta: ""
+                        },
+
+                        
+
+                    ]
+                },
+                {
+                    subSeccion:"Pregunta de investigación",
+                    titulo: [
+                        {
+                            texto:"La Pregunta de investigación ya fue formulada durante la Etapa preparatoria; ahora, para asegurarte de que no ha habido modificaciones responde"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p65",
+                            isBoolean: true,
+                            texto: "¿Plantea con claridad el Problema de investigación?",
+                            subTexto:"¿Cuál es el problema planteado?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p66",
+                            isBoolean: true,
+                            texto: "¿El enfoque propuesto es el mismo que te interesa abordar durante la investigación",
+                            subTexto:"¿Cuál es ese aspecto novedoso? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p67",
+                            isBoolean: true,
+                            texto: "¿Corresponde a un problema viable de atenderse?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p68",
+                            isBoolean: true,
+                            texto: "¿Considera con precisión el contexto donde se desarrollará el estudio?",
+                            subTexto:"¿Cuál es el contexto mencionado?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p69",
+                            isBoolean: false,
+                            texto: "Si tus respuestas son afirmativas y todo se mantiene como lo planteaste en la Etapa preparatoria, a continuación transcribe la Pregunta de investigación anteriormente propuesta y continúa con la siguiente etapa. Si ya no corresponde a tu interés de estudio, reformula y presenta la pregunta que guiará tu investigación",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p70",
+                            isBoolean: true,
+                            texto: "¿Describe concretamente el problema de investigación seleccionado?",
+                            subTexto:"¿Qué problema incluye? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p71",
+                            isBoolean: true,
+                            texto: "¿Se entiende con claridad lo que deseo investigar?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p72",
+                            isBoolean: true,
+                            texto: "¿Especifica el contexto de estudio?",
+                            subTexto:"¿Cuál es el contexto señalado?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p73",
+                            isBoolean: true,
+                            texto: "¿Orienta hacia lo que deseo realizar?",
+                            subTexto:"¿Qué Variables, o Categorías, indican esa orientación?",
+                            respuesta: ""
+                        },
+
+                    ]
+                },
+                {
+                    subSeccion:"Preguntas complementarias",
+                    titulo: [],
+                    preguntas:[
+                        {
+                            idPregunta:"p74",
+                            isBoolean: false,
+                            texto: "Una vez que todas las respuestas son afirmativas cuentas con las bases para evaluar y desarrollar las siguientes etapas, pero, antes de continuar, analiza tu Pregunta de investigación e identifica qué requieres saber y hacer para darle respuesta. A partir de este análisis determina otras preguntas que te ayudarán a aprender lo necesario, a entender el problema, a identificar alternativas de solución…",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p75",
+                            isBoolean: true,
+                            texto:"Estas preguntas contribuyen:  ¿A dar respuesta a la Pregunta de investigación?",
+                            subTexto:"¿Cómo contribuyen?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p76",
+                            isBoolean: true,
+                            texto:"¿A mantener la investigación dentro de los límites teórico-contextuales especificados previamente?",
+                            subTexto:"¿Cómo te aseguraste de esto?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p77",
+                            isBoolean: true,
+                            texto:"¿A adquirir el conocimiento necesario para realizar la investigación?",
+                            subTexto:"¿Cómo te ayudarán a lograrlo? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p78",
+                            isBoolean: true,
+                            texto:"¿A identificar todo lo que requieres hacer durante la investigación?",
+                            subTexto:"¿Cómo te aseguraste de que te ayudan en esta línea?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p78",
+                            isBoolean: true,
+                            texto:"¿A identificar las posibles soluciones al problema de estudio?",
+                            subTexto:"¿Qué posibles soluciones identificaste",
+                            respuesta: ""
+                        }
+                    ]
+                },{
+                    subSeccion:"Hipótesis (o Supuestos)",
+                    titulo: [
+                        {
+                            texto:"La Hipótesis (o los Supuestos) fue otro de los elementos elaborados durante la Etapa preparatoria y, como en los puntos anteriores, si el enfoque original del estudio se mantiene sin modificaciones, solamente tendrás que transcribirla aquí; pero, si decidiste ajustar o adecuar el enfoque del estudio, deberás realizar los ajustes pertinentes para mantener la congruencia con los demás elementos del Proyecto de investigación."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p79",
+                            isBoolean: false,
+                            texto:"Transcribe la Hipótesis, o los Supuestos, (Según corresponda si se trata de una investigación cuantitativa o cualitativa).",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p80",
+                            isBoolean: true,
+                            texto:"¿Da respuesta provisoria y directamente a la Pregunta de investigación definitiva?",
+                            subTexto:"¿Cuáles son los elementos que vinculan a la Pregunta de investigación con la respuesta propuesta",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p81",
+                            isBoolean: true,
+                            texto:"¿Respeta las Variables (o las Categorías) especificadas en la Pregunta de investigación?",
+                            subTexto:"¿Cuáles son las Variables (o Categorías) indicadas?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p82",
+                            isBoolean: true,
+                            texto:"¿Orienta hacia el objetivo propuesto anteriormente?",
+                            subTexto:"¿Qué acción lo determina?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p83",
+                            isBoolean: true,
+                            texto:"¿Se mantiene dentro de los límites y el contexto propuestos para el estudio?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p84",
+                            isBoolean: true,
+                            texto:"¿Especifica el contexto donde se desarrolla el estudio?",
+                            subTexto:"¿Cuál es? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Variables",
+                    titulo: [],
+                    preguntas:[
+                        {
+                            idPregunta:"p85",
+                            isBoolean: false,
+                            texto:"Analiza la Hipótesis propuesta y especifica claramente las Variables",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p86",
+                            isBoolean: false,
+                            texto:"Variable independiente",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p87",
+                            isBoolean: true,
+                            texto:"En la Variable independiente presentada: ¿El texto especifica el elemento de la Hipótesis que se desea manipular intencionalmente?",
+                            subTexto:"¿Cuál es? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p88",
+                            isBoolean: true,
+                            texto:"•	¿El elemento manipulable es susceptible de ser medido?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p89",
+                            isBoolean: true,
+                            texto:"¿Su redacción es correspondiente con lo propuesto en la Hipótesis?",
+                            subTexto:"¿Qué elementos son comunes entre Hipótesis y Variable independiente? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p89",
+                            isBoolean: true,
+                            texto:"¿La Variable independiente propuesta orienta hacia la atención de la situación deseada?",
+                            subTexto:"¿En qué se identifica esta orientación?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p90",
+                            isBoolean: false,
+                            texto:"Variable dependiente",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p91",
+                            isBoolean: true,
+                            texto:"¿La Variable dependiente indica qué se espera como resultado después de manipular la Variable independiente?",
+                            subTexto:"¿Cuál es el resultado esperado?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p92",
+                            isBoolean: true,
+                            texto:"¿Ese resultado es medible?",
+                            subTexto:"¿Cómo se medirá?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p93",
+                            isBoolean: true,
+                            texto:"¿Lo propuesto como Variable dependiente se apega a lo indicado en la Hipótesis?",
+                            subTexto:"¿Qué elementos lo indican? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Indicadores",
+                    titulo: [
+                        {
+                            texto:"Aprovechando el análisis de la Hipótesis, o de los Supuestos, identifica los indicadores conceptuales y busca en la bibliografía especializada su definición. Transcribe a continuación las definiciones, empleando los formatos de citas textuales correspondientes e incluye su referencia."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p94",
+                            isBoolean: false,
+                            texto:"Indicadores conceptuales",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p95",
+                            isBoolean: true,
+                            texto:"Para presentar los indicadores conceptuales: ¿Las definiciones se tomaron de fuentes especializadas?",
+                            subTexto:"¿Cómo te aseguraste de esto?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p96",
+                            isBoolean: true,
+                            texto:"Si las definiciones de las fuentes especializadas no son adecuadas para los fines de la investigación, ¿se propone una que sí contribuya a la unidad conceptual?",
+                            subTexto:"¿En qué te basaste para proponerla?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p96",
+                            isBoolean: true,
+                            texto:"•	¿Se respetan los formatos de citas textuales mayores o menores de cuarenta palabras, según los lineamientos del formato APA?",
+                            subTexto:"¿Cómo verificaste la corrección de los formatos? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p97",
+                            isBoolean: true,
+                            texto:"¿Se incluyen las referencias en formato APA?",
+                            subTexto:"¿Cómo verificaste los formatos?",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Indicadores operacionales",
+                    titulo: [],
+                    preguntas:[
+                        {
+                            idPregunta:"p98",
+                            isBoolean: false,
+                            texto:"Indicadores operacionales",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p99",
+                            isBoolean: true,
+                            texto:"¿Son todas las que se necesitan para el correcto desarrollo de lo propuesto en la Hipótesis, o los Supuestos?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p100",
+                            isBoolean: true,
+                            texto:"¿Confirman la posibilidad de medir las Variables, o los Supuestos?",
+                            subTexto:"¿Cómo las medirás? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p101",
+                            isBoolean: true,
+                            texto:"¿Encausan hacia el logro del objetivo?",
+                            subTexto:"¿Cómo contribuyen a lograrlo? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Objetivos",
+                    titulo: [
+                        {
+                            texto:"El Objetivo general también se estableció durante la Etapa preparatoria; si todo se mantiene con la misma línea propuesta, solamente requieres transcribirlo aquí. Pero si ha habido algún cambio y este se ha reflejado en la Pregunta de investigación, deberás realizar los ajustes pertinentes para mantener el mismo enfoque de investigación y responder de manera afirmativa a las preguntas presentadas en dicha Etapa para confirmar la adecuada formulación de los objetivos."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p102",
+                            isBoolean: false,
+                            texto:"Transcribe aquí: Objetivo general",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p103",
+                            isBoolean: true,
+                            texto:"Confirma, antes de continuar, si el Objetivo general propuesto: •	¿Encauza el estudio hacia el logro del producto final pretendido con esta investigación?",
+                            subTexto:"¿Cuál es el producto final pretendido? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p104",
+                            isBoolean: true,
+                            texto:"¿Encausa hacia la respuesta a la Pregunta de investigación?",
+                            subTexto:"¿Cuál es el elemento común entre respuesta y Objetivo de investigación? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p105",
+                            isBoolean: true,
+                            texto:"¿Es adecuado y suficiente para culminar exitosamente la investigación y abarca lo establecido como situación deseada?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p106",
+                            isBoolean: true,
+                            texto:"¿Plantea una acción concreta, realizable y evaluable?",
+                            subTexto:"¿Cuál es la acción por realizar? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p107",
+                            isBoolean: true,
+                            texto:"¿Se mantiene dentro de la delimitación y el contexto propuestos para el estudio?",
+                            subTexto:"¿Con qué límites, y en qué contexto, se trabajará la investigación?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p108",
+                            isBoolean: true,
+                            texto:"¿Es correspondiente con lo planteado en la Pregunta de investigación y la Hipótesis, o los Supuestos?",
+                            subTexto:"¿Qué elementos en común los vinculan?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p109",
+                            isBoolean: true,
+                            texto:"¿Es correspondiente con lo planteado en la Pregunta de investigación y la Hipótesis, o los Supuestos?",
+                            subTexto:"¿Qué elementos en común los vinculan?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p110",
+                            isBoolean: true,
+                            texto:"¿Se mantiene en correspondencia con las Variables, o Categorías, especificadas en la Pregunta e Hipótesis, o Supuestos, de investigación?",
+                            subTexto:"¿Cuáles son las Variables, o Categorías, en común? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p111",
+                            isBoolean: true,
+                            texto:"¿Determina un compromiso del investigador y no de terceras personas?",
+                            subTexto:"¿Cómo te aseguraste de que esté a tu alcance?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p112",
+                            isBoolean: true,
+                            texto:"¿Emplea un verbo en infinitivo para indicar la acción por realizar?",
+                            subTexto:"¿Cuál es el verbo empleado por alcanzar?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p113",
+                            isBoolean: true,
+                            texto:"¿Emplea un verbo en infinitivo para indicar la acción por realizar?",
+                            subTexto:"¿Cuál es el verbo empleado por alcanzar?",
+                            respuesta: ""
+                        },
+                        
+                    ]
+                },
+                {
+                    subSeccion:"Objetivos Particulares",
+                    titulo: [],
+                    preguntas:[
+                        {
+                            idPregunta:"p114",
+                            isBoolean: false,
+                            texto:"Objetivos particulares",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p115",
+                            isBoolean: true,
+                            texto:"¿Describen con claridad acciones concretas que contribuirán al logro del Objetivo general?",
+                            subTexto:"¿Qué acciones determinaste?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p116",
+                            isBoolean: true,
+                            texto:"¿Encauzan el estudio hacia la respuesta a la Pregunta de investigación?",
+                            subTexto:"¿Cómo ayudan a lograrlo?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p117",
+                            isBoolean: true,
+                            texto:"¿Indican una acción concreta, realizable y evaluable?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p118",
+                            isBoolean: true,
+                            texto:"¿Especifican el contexto donde se desarrollará la investigación?",
+                            subTexto:"¿Cuál es el contexto señalado?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p119",
+                            isBoolean: true,
+                            texto:"¿Incluyen la revisión bibliográfica para identificar los antecedentes del Problema de investigación, qué se ha estudiado acerca de él, así como el sustento teórico necesario para desarrollar la investigación?",
+                            subTexto:"¿Cómo te aseguraste de abarcar todo lo que requiere tu estudio?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p120",
+                            isBoolean: true,
+                            texto:"¿Consideran el estudio de alternativas de solución propuestas para problemas similares?",
+                            subTexto:"¿A qué fuentes te acercarás para identificarlas? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p121",
+                            isBoolean: true,
+                            texto:"¿Especifican el trabajo de campo necesario para lograr el Objetivo general?",
+                            subTexto:"¿Cómo te aseguraste de no omitir nada necesario? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p122",
+                            isBoolean: true,
+                            texto:"¿Son suficientes para alcanzar el Objetivo general?",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p123",
+                            isBoolean: true,
+                            texto:"¿Emplean un verbo en infinitivo en la redacción de la acción por lograr?",
+                            subTexto:"¿Qué verbos utilizaste? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Justificación",
+                    titulo: [
+                        {
+                            texto:"Durante la Etapa preparatoria llenaste una matriz. Emplea los argumentos incluidos en esta para redactar la Justificación de tu Proyecto de investigación"
+                        },
+                        {
+                            texto:"Recuerda, la solidez de la justificación está en relación directa con lo adecuado de los argumentos presentados para manifestar por qué vale la pena llevar a cabo la investigación."
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p124",
+                            isBoolean: false,
+                            texto:"Redacta la Justificación.",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p125",
+                            isBoolean: true,
+                            texto:"¿Explica claramente por qué vale la pena realizar esta investigación desde la perspectiva de los diferentes ámbitos y factores involucrados?",
+                            subTexto:"¿Cuál es la razón principal que hace que valga la pena realizar tu investigación?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p126",
+                            isBoolean: true,
+                            texto:"¿Aprovecha todos los argumentos encontrados al llenar la matriz de la Etapa preparatoria?",
+                            subTexto:"¿Cuántos argumentos has incluido en tu justificación?",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p127",
+                            isBoolean: true,
+                            texto:"¿Permite identificar cuál es la situación deseada?",
+                            subTexto:"¿A qué situación deseada se alude en la justificación? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p128",
+                            isBoolean: true,
+                            texto:"¿Especifica a quién o quiénes se beneficiará y cómo?",
+                            subTexto:"¿Quiénes son los destinatarios y qué beneficio les aportará esta investigación? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p129",
+                            isBoolean: true,
+                            texto:"•	¿Evita presentar como “un listado” los argumentos de justificación",
+                            subTexto:"¿Cómo lograste esto? ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Alcance o Delimitación de la investigación",
+                    titulo: [
+                        {
+                            texto:"Durante el desarrollo del proceso te has esforzado por determinar y mantener con precisión el ámbito de estudio de tu investigación, marcando así los límites o el alcance del estudio. En particular, durante la Etapa preparatoria analizaste los aspectos vinculados con el Problema de investigación y elegiste el que abordarás y aquellos que desechaste"
+                        },
+                        {
+                            texto:"Con base en dicho análisis, describe los aspectos por abordar en tu investigación, sin omitir aquellos que, aunque están estrechamente vinculados con el problema de estudio, no serán abordados, y explica los motivos de esto"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p130",
+                            isBoolean: false,
+                            texto:"Como se mencionó en los puntos precedentes, si efectuaste algún cambio al enfoque del estudio, no olvides realizar los ajustes necesarios al análisis realizado durante la Etapa preparatoria, para que la delimitación también conserve la adecuada relación con el resto de los elementos del Proyecto",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p131",
+                            isBoolean: false,
+                            texto:"Menciona también el Alcance de la investigación. Si desarrollarás un estudio cuantitativo, indica hasta dónde abarcará: Exploratorio, Descriptivo, Correlacional o Explicativo. O, en caso de una investigación cualitativa: Exploratorio, Descriptivo, Relacional o Comprensivo. No olvides mencionar, en función de tu investigación, cuál será el proceso que se seguirá en cada uno de los niveles previos necesarios para llegar al alcance determinado",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p132",
+                            isBoolean: true,
+                            texto:"¿Describe con claridad qué se pretende lograr con esta investigación?",
+                            subTexto:"Sintéticamente, ¿qué pretendes lograr?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p133",
+                            isBoolean: true,
+                            texto:"¿Señala los aspectos que no serán considerados en el estudio y explica los motivos por los cuales se omitirán?",
+                            subTexto:"Sintéticamente, ¿qué aspectos no se abordarán y por qué? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p134",
+                            isBoolean: true,
+                            texto:"¿Especifica el alcance propuesto para esta investigación",
+                            subTexto:"¿Cuál es el alcance indicado? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p135",
+                            isBoolean: true,
+                            texto:"¿El alcance especificado es correspondiente con la situación deseada previamente establecida?",
+                            subTexto:"¿A qué situación deseada corresponde este texto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p136",
+                            isBoolean: true,
+                            texto:"¿Describe el proceso por seguir en cada uno de los niveles necesarios para lograr el alcance propuesto?",
+                            subTexto:"Sintéticamente, ¿cuáles son los pasos necesarios?  ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p137",
+                            isBoolean: true,
+                            texto:"•	¿Establece con claridad el contexto donde se realizará el estudio?",
+                            subTexto:"¿Cuál es el contexto mencionado? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p138",
+                            isBoolean: true,
+                            texto:"¿Indica el tiempo que abarcará la investigación?",
+                            subTexto:"¿Cuánto tiempo requerirá la investigación?  ",
+                            respuesta: ""
+                        },
+                    ]
+                },
+                {
+                    subSeccion:"Limitaciones o posibles contratiempos para concluir la investigación",
+                    titulo: [
+                        {
+                            texto:"También, durante la Etapa preparatoria, se realizó un análisis con respecto a los factores que podrían interferir para el adecuado logro del Objetivo general. Revisa ahora si dicho análisis es completo y adecuado para desarrollar la investigación. Considera la posibilidad de que algún cambio en el enfoque del estudio demande también un cambio en el análisis de los factores que pueden constituir un contratiempo al momento de realizar la investigación"
+                        },
+                        {
+                            texto:"Redacta el apartado considerando los recursos necesarios para realizar la investigación, así como los posibles contratiempos y la manera de enfrentarlos, para contar con un plan de contingencia que te permita prever la eventual presentación de alguno de estos. El siguiente listado te servirá de guía para indicar qué necesitas, si cuentas con esto y, en caso contrario, cómo lograrás subsanar su carencia"
+                        }
+                    ],
+                    preguntas:[
+                        {
+                            idPregunta:"p139",
+                            isBoolean: false,
+                            texto:"Información",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p140",
+                            isBoolean: false,
+                            texto:"Tiempo",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p141",
+                            isBoolean: false,
+                            texto:"Recursos económicos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p142",
+                            isBoolean: false,
+                            texto:"Materiales",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p143",
+                            isBoolean: false,
+                            texto:"Recursos humanos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p144",
+                            isBoolean: false,
+                            texto:"Recursos tecnológicos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p145",
+                            isBoolean: false,
+                            texto:"Permisos, autorizaciones o acuerdos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p146",
+                            isBoolean: false,
+                            texto:"Conocimientos",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p147",
+                            isBoolean: false,
+                            texto:"Habilidades",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p148",
+                            isBoolean: false,
+                            texto:"Actitudes",
+                            subTexto:"",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p149",
+                            isBoolean: true,
+                            texto:"La disponibilidad de información suficiente para alcanzar el Objetivo general",
+                            subTexto:"¿Cómo te aseguraste de esto? ",
+                            respuesta: ""
+                        },
+                        {
+                            idPregunta:"p150",
+                            isBoolean: true,
+                            texto:"Si se cuenta con el tiempo suficiente para concluir la investigación adecuadamente",
+                            subTexto:"¿Qué factores tomaste en cuenta para contar con el tiempo suficiente?",
+                            respuesta: ""
+                        },
+                    ]
+                },{},{},{}
             ]
         }
     ],
